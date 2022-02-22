@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ShowsState from './context/shows/ShowsState';
+import AlertState from './context/alerts/AlertsState';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ShowsState>
+    <AlertState>
+      <App />
+    </AlertState>
+  </ShowsState>,
   document.getElementById('root')
 );
 
