@@ -49,7 +49,7 @@ img {
   border-radius: 3px;
 }
 
-/* Navbar style */
+/* Navbar Styles */
 .navbar {
   padding: 1rem;
   background-color: var(--dark-color);
@@ -92,7 +92,7 @@ img {
   color: var(--secondary-color);
 }
 
-/* search bar styles */
+/* Search Bar Styles */
 .searchbar {
   width: 100%;
   margin: 2rem 0;
@@ -113,7 +113,7 @@ img {
   box-shadow: 0 0 1px 1px rgba(60, 148, 139, 0.5);
 }
 
-/* alert styles */
+/* Alert Styles */
 .alert {
   padding: 10px 17px;
   font-size: 20px;
@@ -134,7 +134,7 @@ img {
   border: 1px solid #0523b7;
 }
 
-/* ListItem */
+/* ListItem Styles */
 .listitem {
   text-decoration: none;
   width: 210px;
@@ -163,13 +163,13 @@ img {
   padding: 5px;
 }
 
-/* homepage styles */
+/* Homepage Styles */
 .homepage__list{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
 
-/* singleshow styles */
+/* Singleshow Styles */
 .singleshow {
   display: flex;
   margin: 2rem 0;
@@ -192,7 +192,7 @@ img {
   color: var(--offwhite-color);
 }
 
-About Page Styles */
+/* About Page Styles */
 .about {
   margin: 2rem 0;
   width: 100%;
