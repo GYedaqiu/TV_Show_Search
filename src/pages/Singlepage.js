@@ -7,8 +7,7 @@ const Singlepage = ({ match }) => {
     const {
         singleShow,
         loading,
-        getSingleShow,
-        clearSingleshow } = useContext(ShowsContext);
+        getSingleShow} = useContext(ShowsContext);
     useEffect(() => {
         getSingleShow(match.params.id);
         //eslint-disable-next-line
